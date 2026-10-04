@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .page {
+            border: 2px solid black;
+        }
+
+        header {
+            height: 340px;
+            border-bottom: 2px solid black;
+            padding: 20px;
+        }
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-box {
+            width: 40px;
+            height: 40px;
+            background-color: black;
+            margin-right: 15px;
+        }
+
+        .name {
+            font-size: 24px;
+        }
+
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 20px;
+            margin-left: 15px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-top: 90px;
+        }
+
+        .intro h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+
+        .intro p {
+            color: gray;
+            font-size: 20px;
+        }
+
+        .middle {
+            display: flex;
+        }
+
+        .projects {
+            width: 25%;
+            border-right: 2px solid black;
+        }
+
+        .experience {
+            width: 40%;
+            border-right: 2px solid black;
+        }
+
+        .education {
+            width: 35%;
+        }
+
+        .middle h2 {
+            padding: 20px;
+            margin: 0;
+        }
+
+        .project {
+            border-top: 1px solid black;
+            padding: 15px 35px;
+            font-size: 20px;
+        }
+
+        .work {
+            border-top: 1px solid black;
+            padding: 15px 25px;
+            font-size: 18px;
+        }
+
+        .work h3 {
+            margin-top: 0;
+        }
+
+        .work a {
+            color: blue;
+        }
+
+        .education p {
+            padding: 0 25px;
+            font-size: 18px;
+        }
+
+        .reviews {
+            border-top: 2px solid black;
+            padding: 35px 40px 150px;
+        }
+
+        .reviews h2 {
+            margin-bottom: 30px;
+        }
+
+        .review-boxes {
+            display: flex;
+            gap: 30px;
+        }
+
+        .review {
+            width: 30%;
+            border: 2px solid black;
+            border-radius: 35px;
+            padding: 30px 20px;
+            font-size: 18px;
+        }
+
+        .teacher {
+            color: lightgray;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="page">
+
+        <header>
+            <div class="top">
+                <div class="logo">
+                    <div class="logo-box"></div>
+                    <div class="name">your name</div>
+                </div>
+
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Projects</a>
+                    <a href="#">Articles</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+
+            <div class="intro">
+                <h1>Frontend Developer</h1>
+                <p>html only with proper layout, no styling</p>
+            </div>
+        </header>
+
+        <div class="middle">
+
+            <div class="projects">
+                <h2>Projects</h2>
+
+                <div class="project">HTML Only Portfolio</div>
+                <div class="project">Calculator</div>
+                <div class="project">Quiz App</div>
+                <div class="project">Countdown Timer</div>
+                <div class="project">Product Upcoming Page</div>
+            </div>
+
+            <div class="experience">
+                <h2>Work Experience</h2>
+
+                <div class="work">
+                    <h3>roadmap.sh</h3>
+                    <p>Solved all the frontend projects</p>
+                    <a href="#">Visit my Profile</a>
+                </div>
+
+                <div class="work">
+                    <h3>OpenSource Work</h3>
+                    <p>
+                        Contributed to 50 opensource projects.
+                        Made my own projects with 200 GitHub Stars.
+                    </p>
+                    <a href="#">Visit my GitHub Profile</a>
+                </div>
+            </div>
+
+            <div class="education">
+                <h2>Education</h2>
+
+                <p>
+                    Graduated with 3.76 out of 4 CGPA.
+                    Won Acme Hackathon.
+                    Organized 30 sessions.
+                </p>
+
+                <p>Courses I took:</p>
+
+                <p>
+                    - Object Oriented Programming<br>
+                    - Data Structures and Algorithms<br>
+                    - Web Engineering<br>
+                    - Artificial Intelligence<br>
+                    - Human Computer Interaction<br>
+                    - Computer Graphics<br>
+                    - Database Management Systems<br>
+                    - Distributed Database Systems<br>
+                    - Discrete Mathematics
+                </p>
+            </div>
+
+        </div>
+
+        <div class="reviews">
+            <h2>Reviews from my Teachers</h2>
+
+            <div class="review-boxes">
+
+                <div class="review">
+                    <p>
+                        John doe was a brilliant student;
+                        always stood out with his assignments.
+                    </p>
+
+                    <p class="teacher">
+                        Jane Doe<br>
+                        Assistant Professor
+                    </p>
+                </div>
+
+                <div class="review">
+                    <p>
+                        John doe was a brilliant student;
+                        always stood out with his assignments.
+                    </p>
+
+                    <p class="teacher">
+                        Jane Doe<br>
+                        Assistant Professor
+                    </p>
+                </div>
+
+                <div class="review">
+                    <p>
+                        John doe was a brilliant student;
+                        always stood out with his assignments.
+                    </p>
+
+                    <p class="teacher">
+                        Jane Doe<br>
+                        Assistant Professor
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            © all rights reserved 2025
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
